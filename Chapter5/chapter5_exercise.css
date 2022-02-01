@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 20px auto;
+  text-align: center;
+}
+header.heading {
+  /* headerタグ内のheadingクラスにのみ反映される */
+  text-align: center;
+  font-size: auto;
+}
+
+.nav-list {
+  width: 100%;
+  text-align: center;
+  padding: 15px 20px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.nav-list-item {
+  list-style: square;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.box_style {
+  list-style-type: none;
+  display: inline-block;
+}
+.a {
+  width: auto;
+  height: 200px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  font-size: 0;
+}
+.b {
+  width: auto;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0;
+}
+.c {
+  width: auto;
+  height: 200px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  font-size: 0;
+}
+
+.a1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+.a2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+.a3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+.a4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+.b1 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+.b2 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+.b3 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+.b4 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+.c1 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+.c2 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+.c3 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+.c4 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%; /* 横幅 */
+  height: 120px; /* 高さ */
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+.footer-text {
+  color: #fff;
+}
