@@ -11,7 +11,6 @@ header {
 }
 .list_text {
   padding: 20px;
-  font-size: 10px;
 }
 .list_text:nth-child(odd) {
   background-color: lightgray;
