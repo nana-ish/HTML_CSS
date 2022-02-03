@@ -1,0 +1,8 @@
+.fab{
+  font-size: 32px;
+}
+.position {
+  position: absolute; /*親要素にrelativeが設定されていないので基準は画面の端から*/
+  top: 100px;
+  right: 40px;
+}
